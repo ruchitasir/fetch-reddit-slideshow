@@ -92,18 +92,6 @@ const displayCurrent =()=>{
 // remove prev image
 const removePrevImg=()=>{
     document.getElementById('results').innerHTML = " ";
-   /* let resultDiv = document.getElementById('results');
-   
-    // hasChildNodes checks the child for the Div element
-    // it will check if we have image in the Div as child
-   console.log(resultDiv.hasChildNodes());
-    if(resultDiv.hasChildNodes())
-    {    //empty prev images
-          let img =document.getElementById('image')
-          let h3 = document.getElementsByTagName('h3');
-          resultDiv.removeChild(img);
-          resultDiv.removeChild(h3[0]);
-    }*/
 }
 
 // Updates the next image
